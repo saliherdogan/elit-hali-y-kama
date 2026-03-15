@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elit Halı & Koltuk Yıkama | İstanbul Profesyonel Temizlik</title>
+    
+    <!-- SEO Meta Etiketleri -->
+    <meta name="description" content="Elit Halı Yıkama Servisi - Her türlü halı ve koltuk için özel yıkama metodları. %100 müşteri memnuniyeti, hijyen garantisi.">
+    <meta name="keywords" content="halı yıkama, koltuk temizliği, yün halı yıkama, el dokuma halı, İstanbul halı yıkama">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Google Ads Remarketing Tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        // Google Ads dönüşüm takibi için ID'nizi buraya girin
+        gtag('config', 'AW-XXXXXXXXX');
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root { 
+            --ana-kirmizi: #e31e24; 
+            --ust-bar-mavi: #004aad; 
+            --koyu-renk: #212529;
+            --whatsapp: #25d366;
+            --acik-mavi: #e8f4ff;
+            
+            /* Tema değişkenleri */
+            --arkaplan-renk: #ffffff;
+            --yazi-renk: #333333;
+            --kart-arkaplan: #ffffff;
+            --acik-arkaplan: #f8f9fa;
+            --border-renk: #dee2e6;
+        }
+        
+        /* Koyu tema değişkenleri */
+        [data-theme="dark"] {
+            --arkaplan-renk: #121212;
+            --yazi-renk: #f8f9fa;
+            --kart-arkaplan: #1e1e1e;
+            --acik-arkaplan: #2d2d2d;
+            --border-renk: #444444;
+            --koyu-renk: #f8f9fa;
+            --acik-mavi: #2a3b5a;
+        }
+        
+        html { scroll-behavior: smooth; }
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            padding-top: 80px; 
+            color: var(--yazi-renk); 
+            background-color: var(--arkaplan-renk);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        h1, h2, h3, .navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Üst Bar (Mavi) */
+        .navbar { 
+            background-color: var(--ust-bar-mavi) !important; 
+            padding: 10px 0; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .nav-link { 
+            color: white !important; 
+            font-weight: 600; 
+            text-transform: uppercase; 
+            transition: 0.3s; 
+            font-size: 0.9rem;
+            margin: 0 5px;
+        }
+        .nav-link:hover { 
+            color: #ffca28 !important; 
+            transform: translateY(-2px);
+        }
+        
+        /* Logo Stili */
+        .navbar-brand {
+            background: white;
+            padding: 5px 15px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .navbar-brand img { 
+            height: 70px; 
+            filter: none !important;
+            transition: transform 0.3s;
+            object-fit: contain;
+        }
+        .navbar-brand img:hover {
+            transform: scale(1.1);
+        }
+
+        /* HERO ALANI */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+                        url('https://images.unsplash.com/photo-1583845112207-8e77487f1ecd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover; 
+            background-position: center;
+            background-attachment: fixed;
+            color: white; 
+            padding: 140px 0; 
+            border-bottom: 10px solid var(--ana-kirmizi);
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+        .hero .lead {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+            margin-bottom: 40px;
+        }
+
+        /* Başlıklar */
+        h2 { 
+            font-weight: 800; 
+            color: var(--koyu-renk); 
+            margin-bottom: 50px; 
+            position: relative; 
+            padding-bottom: 15px;
+        }
+        h2::after { 
+            content: ''; 
+            display: block; 
+            width: 80px; 
+            height: 4px; 
+            background: linear-gradient(to right, var(--ana-kirmizi), var(--ust-bar-mavi));
+            margin: 15px auto; 
+            border-radius: 2px;
+        }
+
+        /* Hizmet Kartları */
+        .type-card {
+            border: none; 
+            border-radius: 15px; 
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            height: 100%; 
+            border-bottom: 5px solid transparent;
+            background: var(--kart-arkaplan);
+        }
+        .type-card:hover { 
+            transform: translateY(-15px); 
+            box-shadow: 0 20px 40px rgba(227, 30, 36, 0.15);
+            border-bottom-color: var(--ana-kirmizi);
+        }
+        .type-img { 
+            height: 250px; 
+            object-fit: cover; 
+            width: 100%; 
+            transition: transform 0.5s;
+        }
+        .type-card:hover .type-img {
+            transform: scale(1.05);
+        }
+        .type-body { 
+            padding: 30px 25px; 
+            text-align: center; 
+        }
+        .type-list { 
+            list-style: none; 
+            padding: 0; 
+            margin: 20px 0; 
+            text-align: left; 
+        }
+        .type-list li { 
+            margin-bottom: 12px; 
+            font-size: 1rem;
+            padding-left: 10px;
+            position: relative;
+        }
+        .type-list li:before {
+            content: '✓';
+            color: var(--ana-kirmizi);
+            font-weight: bold;
+            position: absolute;
+            left: -15px;
+        }
+
+        /* Halı Metodları Bölümü */
+        .method-section {
+            background: linear-gradient(135deg, var(--acik-mavi) 0%, var(--arkaplan-renk) 100%);
+            padding: 80px 0;
+        }
+        .method-card {
+            background: var(--kart-arkaplan);
+            border-radius: 15px;
+            padding: 40px 30px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            height: 100%;
+            border-left: 5px solid var(--ana-kirmizi);
+            transition: transform 0.3s;
+        }
+        .method-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(227, 30, 36, 0.15);
+        }
+        .method-icon {
+            font-size: 2.5rem;
+            color: var(--ust-bar-mavi);
+            margin-bottom: 20px;
+            background: rgba(0, 74, 173, 0.1);
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .method-badge {
+            background: var(--ana-kirmizi);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        /* Butonlar */
+        .btn-Elit { 
+            background: linear-gradient(45deg, var(--ana-kirmizi), #ff5252);
+            color: white; 
+            font-weight: bold; 
+            border-radius: 50px; 
+            padding: 14px 35px; 
+            border: none;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 5px 15px rgba(227, 30, 36, 0.3);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-Elit:hover { 
+            background: linear-gradient(45deg, var(--ust-bar-mavi), #0066cc);
+            color: white; 
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 74, 173, 0.4);
+        }
+
+        /* WhatsApp Butonu */
+        .nav-whatsapp { 
+            background-color: var(--whatsapp); 
+            border-radius: 50px; 
+            padding: 10px 25px !important; 
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            transition: all 0.3s;
+        }
+        .nav-whatsapp:hover {
+            background-color: #128C7E;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+        }
+
+        /* İşlem Süreci */
+        .process-section {
+            background-color: var(--acik-mavi);
+            padding: 80px 0;
+        }
+        .step-circle { 
+            width: 80px; 
+            height: 80px; 
+            background: linear-gradient(135deg, var(--ust-bar-mavi), var(--ana-kirmizi));
+            color: white; 
+            border-radius: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            font-size: 1.8rem; 
+            font-weight: bold; 
+            margin: 0 auto 20px; 
+            border: 5px solid var(--arkaplan-renk); 
+            box-shadow: 0 0 0 5px rgba(227, 30, 36, 0.2);
+            transition: transform 0.3s;
+        }
+        .step-circle:hover {
+            transform: rotate(15deg) scale(1.1);
+        }
+        .step-card {
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .step-card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Referanslar Bölümü */
+        .testimonial-card {
+            background: var(--kart-arkaplan);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            margin: 15px;
+            border-left: 5px solid var(--ana-kirmizi);
+        }
+        .testimonial-text {
+            font-style: italic;
+            color: var(--yazi-renk);
+            margin-bottom: 20px;
+        }
+        .client-name {
+            color: var(--ust-bar-mavi);
+            font-weight: 600;
+        }
+        .stars {
+            color: #ffca28;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer { 
+            background: linear-gradient(135deg, var(--koyu-renk), #000);
+            color: white; 
+            padding: 70px 0 30px;
+            position: relative;
+        }
+        footer:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(to right, var(--ana-kirmizi), var(--ust-bar-mavi));
+        }
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        .footer-links a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer-links a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border-radius: 50%;
+            margin-right: 10px;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            background: var(--ana-kirmizi);
+            transform: translateY(-3px);
+        }
+        .footer-call { 
+            font-size: 2.5rem; 
+            font-weight: 800; 
+            color: var(--ana-kirmizi); 
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin: 20px 0;
+        }
+
+        /* Sabit WhatsApp Butonu */
+        .fixed-whatsapp {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--whatsapp);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+        .fixed-whatsapp:hover {
+            transform: scale(1.1);
+            background: #128C7E;
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+        }
+
+        /* Call Button */
+        .call-button {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            background: var(--ana-kirmizi);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: 0 5px 20px rgba(227, 30, 36, 0.4);
+            z-index: 1000;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+        .call-button:hover {
+            transform: scale(1.1);
+            background: #c4171d;
+            box-shadow: 0 8px 25px rgba(227, 30, 36, 0.5);
+        }
+        
+        /* Tema Değiştirme Butonu */
+        .theme-switcher {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            background: var(--ust-bar-mavi);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .theme-switcher:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+        
+        /* Tema ikonları */
+        .theme-icon {
+            transition: transform 0.5s ease;
+        }
+        
+        [data-theme="dark"] .fa-sun {
+            display: none;
+        }
+        
+        [data-theme="dark"] .fa-moon {
+            display: inline-block;
+        }
+        
+        .fa-sun {
+            display: inline-block;
+        }
+        
+        .fa-moon {
+            display: none;
+        }
+        
+        [data-theme="dark"] .fa-sun {
+            display: none;
+        }
+        
+        [data-theme="dark"] .fa-moon {
+            display: inline-block;
+        }
+
+        /* Koyu tema için ek ayarlar */
+        [data-theme="dark"] .bg-light {
+            background-color: var(--acik-arkaplan) !important;
+        }
+        
+        [data-theme="dark"] .text-muted {
+            color: #b0b0b0 !important;
+        }
+        
+        [data-theme="dark"] .card {
+            background-color: var(--kart-arkaplan);
+            border-color: var(--border-renk);
+        }
+
+        /* Mobil Uyumluluk */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .hero .lead {
+                font-size: 1.2rem;
+            }
+            .footer-call {
+                font-size: 2rem;
+            }
+            .navbar-nav {
+                text-align: center;
+                background: var(--ust-bar-mavi);
+                padding: 15px;
+                border-radius: 10px;
+                margin-top: 10px;
+            }
+            .call-button, .fixed-whatsapp, .theme-switcher {
+                bottom: 20px;
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
+            .call-button {
+                left: 20px;
+            }
+            .fixed-whatsapp {
+                right: 20px;
+            }
+            .theme-switcher {
+                bottom: 90px;
+                right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Tema Değiştirme Butonu -->
+    <div class="theme-switcher" id="themeSwitcher" aria-label="Tema değiştir">
+        <i class="fas fa-sun theme-icon"></i>
+        <i class="fas fa-moon theme-icon"></i>
+    </div>
+
+    <!-- Sabit Arama Butonu -->
+    <a href="tel:05309492040" class="call-button" onclick="gtag('event', 'click', {'event_category': 'telefon', 'event_label': 'sabit_arama_butonu'});">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+    <!-- Sabit WhatsApp Butonu -->
+    <a href="https://wa.me/905309492040" class="fixed-whatsapp" target="_blank" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/YYYYYYYYYYYYY', 'value': 1.0, 'currency': 'TRY'});">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="favicon.png" alt="Elit Halı Yıkama">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#anasayfa">Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#uzmanlik">Hizmetlerimiz</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#metodlar">Yıkama Metodları</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#surec">Süreç</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#yorumlar">Referanslar</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-whatsapp ms-lg-3" href="https://wa.me/905309492040" target="_blank" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/YYYYYYYYYYYYY', 'value': 1.0, 'currency': 'TRY'});">
+                            <i class="fab fa-whatsapp me-1"></i> WhatsApp
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="anasayfa" class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">ELİT HALI & KOLTUK YIKAMA</h1>
+            <p class="lead fs-3 mb-5">Profesyonel Temizlik, Hijyen Garantisi</p>
+            <p class="mb-5">Her türlü halı ve koltuk için özel yıkama metodları ile İstanbul'da hizmetinizdeyiz</p>
+            <a href="tel:05309492040" class="btn btn-Elit btn-lg me-3" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/ZZZZZZZZZZZZZ', 'value': 1.0, 'currency': 'TRY'});">
+                <i class="fas fa-phone-alt me-2"></i> HEMEN ARA: 0 530 949 20 40
+            </a>
+            <a href="https://wa.me/905309492040" class="btn btn-lg" style="background: #25d366; color: white; border-radius: 50px; padding: 14px 35px;" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/YYYYYYYYYYYYY', 'value': 1.0, 'currency': 'TRY'});">
+                <i class="fab fa-whatsapp me-2"></i> WHATSAPP'TAN YAZ
+            </a>
+        </div>
+    </header>
+
+    <section id="uzmanlik" class="py-5">
+        <div class="container py-5">
+            <h2 class="text-center">UZMANLIK ALANLARIMIZ</h2>
+            <div class="row g-4 mt-4">
+                <!-- Kart 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="type-card">
+                        <img src="fırçalamaa.png" class="type-img" alt="El Dokuma Halı Yıkama">
+                        <div class="type-body">
+                            <h4 class="fw-bold mb-3">Özel Yıkama Makinesiyle</h4>
+                            <ul class="type-list">
+                                <li>Özel  yıkama yöntemi</li>
+                                <li>Renk koruma garantili temizlik</li>
+                                <li>Doğal sabun kullanımı</li>
+                                <li>Yıpranmaya karşı koruma</li>
+                            </ul>
+                            <a href="tel:05326019910" class="btn btn-Elit mt-3" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/ZZZZZZZZZZZZZ', 'value': 1.0, 'currency': 'TRY'});">
+                                <i class="fas fa-phone-alt me-2"></i> ARA: 0 530 949 20 40
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Kart 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="type-card">
+                        <img src="tozalmaa.png" class="type-img" alt="Koltuk Temizliği">
+                        <div class="type-body">
+                            <h4 class="fw-bold mb-3">Otomatik Sıkma Makinesiyle</h4>
+                            <ul class="type-list">
+                                <li>Yerinde vakumlu hijyen temizliği</li>
+                                <li>%100 leke çıkarma garantisi</li>
+                                <li>Koku giderici özel uygulama</li>
+                                <li>Akarlara karşı koruma</li>
+                            </ul>
+                            <a href="tel:05326019910" class="btn btn-Elit mt-3" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/ZZZZZZZZZZZZZ', 'value': 1.0, 'currency': 'TRY'});">
+                                <i class="fas fa-phone-alt me-2"></i> ARA: 0 530 949 20 40
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Kart 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="type-card">
+                        <img src="kurulamaa.png" class="type-img" alt="Modern Halı Yıkama">
+                        <div class="type-body">
+                            <h4 class="fw-bold mb-3">Modern Halı Kurutma</h4>
+                            <ul class="type-list">
+                                <li>Antibakteriyel şampuanlar</li>
+                                <li>Hızlı kapalı devre kurutma</li>
+                                <li>Su tasarruflu sistem</li>
+                                <li>Ekolojik temizlik ürünleri</li>
+                            </ul>
+                            <a href="tel:05326019910" class="btn btn-Elit mt-3" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/ZZZZZZZZZZZZZ', 'value': 1.0, 'currency': 'TRY'});">
+                                <i class="fas fa-phone-alt me-2"></i> ARA: 0 530 949 20 40
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Halı Yıkama Metodları Bölümü -->
+    <section id="metodlar" class="method-section">
+        <div class="container py-5">
+            <h2 class="text-center">HALI ÇEŞİTLERİNE ÖZEL YIKAMA METODLARIMIZ</h2>
+            <p class="text-center mb-5">Her halı türü için özel geliştirdiğimiz yıkama metodları ile garantili temizlik</p>
+            
+            <div class="row g-4 mt-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-hands"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Yün Halı Yıkama</h5>
+                        <p class="text-muted">Özel ısı kontrollü sistem ile doğal yün liflerini koruyarak temizlik.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary me-2">Soğuk su</span>
+                            <span class="badge bg-primary">Özel şampuan</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">İpek Halı Yıkama</h5>
+                        <p class="text-muted">Elle yıkama yöntemi ile ipek liflerine zarar vermeden özenli temizlik.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary me-2">Elle yıkama</span>
+                            <span class="badge bg-primary">pH dengeli</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Sentetik Halı Yıkama</h5>
+                        <p class="text-muted">Yüksek basınçlı sistem ile derinlemesine temizlik ve hızlı kurutma.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary me-2">Hızlı kurutma</span>
+                            <span class="badge bg-primary">Yüksek basınç</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Kilim Yıkama</h5>
+                        <p class="text-muted">Geleneksel yöntemlerle, doğal ürünler kullanılarak özel kilim temizliği.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary me-2">Doğal ürünler</span>
+                            <span class="badge bg-primary">Geleneksel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row g-4 mt-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Antialerjik Yıkama</h5>
+                        <p class="text-muted">Alerjik bünyeler için özel geliştirilmiş hipoalerjenik temizlik sistemi.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-success me-2">Alerji dostu</span>
+                            <span class="badge bg-success">Hijyenik</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-tint-slash"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Leke Çıkarma</h5>
+                        <p class="text-muted">İnatçı lekeler için özel geliştirilmiş leke çözücüler ile profesyonel uygulama.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-warning me-2">Leke garantisi</span>
+                            <span class="badge bg-warning">Özel solüsyon</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Kurutma Sistemi</h5>
+                        <p class="text-muted">Kapalı devre hijyenik kurutma sistemi ile küf ve bakteri oluşumunu engelleme.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-info me-2">Hızlı kurutma</span>
+                            <span class="badge bg-info">Hijyenik</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="surec" class="process-section">
+        <div class="container py-5">
+            <h2 class="text-center">TEMİZLİK SÜRECİMİZ</h2>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card text-center">
+                        <div class="step-circle">1</div>
+                        <h5 class="fw-bold">ÜCRETSİZ KEŞİF</h5>
+                        <p>Telefonla bizi arayın, uzman ekibimiz ücretsiz keşif için adresinize gelsin.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card text-center">
+                        <div class="step-circle">2</div>
+                        <h5 class="fw-bold">ÖZEL ALIM</h5>
+                        <p>Halı ve koltuklarınız özel araçlarımızla hijyenik şartlarda alınır.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card text-center">
+                        <div class="step-circle">3</div>
+                        <h5 class="fw-bold">PROFESYONEL YIKAMA</h5>
+                        <p>Uzman ekip ve son teknoloji makinelerle temizlik yapılır.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card text-center">
+                        <div class="step-circle">4</div>
+                        <h5 class="fw-bold">PAKETLİ TESLİMAT</h5>
+                        <p>Temizlenen ürünleriniz mis gibi kokulu paketlerle teslim edilir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="yorumlar" class="py-5 bg-light">
+        <div class="container py-5">
+            <h2 class="text-center">MÜŞTERİ YORUMLARI</h2>
+            <div class="row g-4 mt-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"El dokuma halımı çok özenli temizlediler. Renkler canlandı, halım yeniden parladı. Kesinlikle tavsiye ederim."</p>
+                        <p class="client-name">- Ayşe Hanım, Beşiktaş</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"Koltuk takımımızdaki inatçı lekeleri tamamen çıkardılar. Hijyen konusunda çok titizler. Teşekkürler Elit Temizlik!"</p>
+                        <p class="client-name">- Mehmet Bey, Kadıköy</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Hızlı ve profesyonel hizmet. Randevu saatine sadıklar, temizlik kalitesi mükemmel. Artık tek tercihim."</p>
+                        <p class="client-name">- Zeynep Hanım, Şişli</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Bölümü -->
+    <section class="py-5" style="background: linear-gradient(135deg, var(--ust-bar-mavi), var(--ana-kirmizi));">
+        <div class="container py-5 text-center text-white">
+            <h2 class="mb-4">HEMEN TEMİZLİK RANDEVUSU ALIN!</h2>
+            <p class="lead mb-5">Uzman ekibimiz sizin için en uygun zamanı ayarlasın</p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="tel:05326019910" class="btn btn-lg btn-light" style="border-radius: 50px; padding: 15px 40px;" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/ZZZZZZZZZZZZZ', 'value': 1.0, 'currency': 'TRY'});">
+                    <i class="fas fa-phone-alt me-2"></i> 0 530 949 20 40'u ARA
+                </a>
+                <a href="https://wa.me/905309492040" class="btn btn-lg" style="background: #25d366; color: white; border-radius: 50px; padding: 15px 40px;" onclick="gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/YYYYYYYYYYYYY', 'value': 1.0, 'currency': 'TRY'});">
+                    <i class="fab fa-whatsapp me-2"></i> WHATSAPP'TAN MESAJ AT
+                </a>
+            </div>
+            <p class="mt-4"><i class="fas fa-clock me-2"></i> 7/24 Hizmet | Ücretsiz Keşif | Hijyen Garantisi</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <img src="favicon.png" alt="Elit Logo" style="height: 80px; margin-bottom: 20px; background: white; padding: 10px; border-radius: 10px;">
+                    <p>Profesyonel halı ve koltuk yıkama hizmetinde İstanbul'un güvenilir adresi.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-4">HIZLI BAĞLANTILAR</h5>
+                    <ul class="footer-links">
+                        <li><a href="#anasayfa">Ana Sayfa</a></li>
+                        <li><a href="#uzmanlik">Hizmetlerimiz</a></li>
+                        <li><a href="#metodlar">Yıkama Metodları</a></li>
+                        <li><a href="#surec">Süreç</a></li>
+                        <li><a href="#yorumlar">Referanslar</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-4">İLETİŞİM</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> İstanbul, Türkiye</p>
+                    <p><i class="fas fa-phone me-2"></i> <a href="tel:05326019910" style="color: #bbb; text-decoration: none;">0 530 949 20 40</a></p>
+                    <p><i class="fas fa-envelope me-2"></i> info@elithaliyikama.com</p>
+                    <p><i class="fas fa-clock me-2"></i> 7/24 Hizmet</p>
+                    <div class="footer-call">0 530 949 20 40</div>
+                </div>
+            </div>
+            <hr style="border-color: #444; margin: 40px 0;">
+            <div class="text-center">
+                <p class="mb-0">© 2026 Elit Halı & Koltuk Yıkama Servisi. Tüm hakları saklıdır.</p>
+                <p class="small text-secondary mt-2">Profesyonel temizlik çözümleriniz için hizmetinizdeyiz.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Tema kontrolü
+        const themeSwitcher = document.getElementById('themeSwitcher');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        
+        // Sayfa yüklendiğinde tema ayarı
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        
+        // Tema değiştirme işlevi
+        themeSwitcher.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Google Analytics event tracking
+            gtag('event', 'theme_change', {
+                'event_category': 'ui',
+                'event_label': newTheme
+            });
+        });
+
+        // Smooth scroll için
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll efekti
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.style.padding = '5px 0';
+                navbar.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
+            } else {
+                navbar.style.padding = '10px 0';
+                navbar.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)';
+            }
+        });
+
+        // Buton tıklama efekti
+        document.querySelectorAll('.btn-Elit').forEach(button => {
+            button.addEventListener('click', function() {
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+            });
+        });
+
+        // Google Ads dönüşüm takibi için
+        // Tüm telefon arama butonlarını izle
+        document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+            link.addEventListener('click', function() {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-XXXXXXXXX/ZZZZZZZZZZZZZ',
+                    'value': 1.0,
+                    'currency': 'TRY',
+                    'transaction_id': ''
+                });
+                
+                // Form gönderimi izleme (isteğe bağlı)
+                gtag('event', 'form_submit', {
+                    'event_category': 'telefon_arama',
+                    'event_label': this.href
+                });
+            });
+        });
+
+        // Sayfa ziyareti izleme
+        window.addEventListener('load', function() {
+            gtag('event', 'page_view', {
+                'page_title': document.title,
+                'page_location': window.location.href,
+                'page_path': window.location.pathname
+            });
+        });
+    </script>
+</body>
+</html>
